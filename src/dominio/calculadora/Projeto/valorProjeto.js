@@ -6,6 +6,8 @@ const calcularValorBaseProjeto = (totalDeHorasPorProjeto, valorHora) => {
   return totalDeHorasPorProjeto * valorHora;
 };
 
+// passar uma lista de funcionalidades
+// valorDelaPorHora
 const calcularValorTotalProjeto = (funcionalidades, valorHora) => {
   const totalDeHorasPorProjeto = calcularHorasDeProjeto(funcionalidades);
   
